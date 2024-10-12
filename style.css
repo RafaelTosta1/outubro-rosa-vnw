@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 17vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header h1 {
+  color: #fff;
+}
+header div {
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div button {
+  border: none;
+  background-color: #FF69B4;
+  color: #fff;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main nav .firstNav {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25vw;
+}
+main nav .firstNav h1 {
+  align-content: center;
+  width: 100vh;
+  padding-left: 100px;
+}
+main nav .firstNav img {
+  padding-right: 100px;
+}
+main nav .secondNav {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vw;
+}
+main nav .secondNav h1 {
+  align-content: center;
+  color: #fff;
+  width: 100vh;
+  padding-right: 100px;
+}
+main nav .secondNav img {
+  padding-left: 100px;
+}
+main nav .thirdNav {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 26vw;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
