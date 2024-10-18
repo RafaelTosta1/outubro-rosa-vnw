@@ -1,69 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 header {
-  height: 17vh;
+  height: 16vh;
   background-color: #FF69B4;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-header h1 {
-  color: #fff;
-}
-header div {
-  width: 40vw;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header div button {
-  border: none;
-  background-color: #FF69B4;
-  color: #fff;
-  font-size: 20px;
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
 }
 
-main {
+.BoxLogo {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  width: 25vw;
 }
-main nav .firstNav {
+@media (max-width: 800px) {
+  .BoxLogo {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1 {
+  color: #fff;
+  font-size: 1.7vh;
+}
+@media (max-width: 800px) {
+  .BoxLogo h1 {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo h1 {
+    font-size: 3.5vw;
+  }
+}
+.BoxLogo img {
+  width: 6.5vw;
+}
+@media (max-width: 800px) {
+  .BoxLogo img {
+    width: 8vw;
+  }
+}
+@media (max-width: 550px) {
+  .BoxLogo img {
+    width: 10vw;
+  }
+}
+
+nav {
+  width: 40vw;
+}
+@media (max-width: 800px) {
+  nav {
+    width: 45vw;
+  }
+}
+@media (max-width: 550px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+}
+@media (max-width: 800px) {
+  nav ul {
+    font-size: 2.2vw;
+  }
+}
+@media (max-width: 550px) {
+  nav ul {
+    justify-content: space-evenly;
+  }
+}
+nav ul a {
+  color: #fff;
+}
+
+.secSobre {
+  height: 60vh;
   background-color: #FFD9EC;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 25vw;
+  justify-content: space-evenly;
 }
-main nav .firstNav h1 {
-  align-content: center;
-  width: 100vh;
-  padding-left: 100px;
+@media (max-width: 550px) {
+  .secSobre {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
 }
-main nav .firstNav img {
-  padding-right: 100px;
+.secSobre p {
+  width: 38vw;
+  text-align: justify;
+  font-size: 1.5vw;
 }
-main nav .secondNav {
+@media (max-width: 800px) {
+  .secSobre p {
+    font-size: 2vw;
+    width: 45vw;
+  }
+}
+@media (max-width: 550px) {
+  .secSobre p {
+    width: 75vw;
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 400px) {
+  .secSobre p {
+    font-size: 3.5vw;
+  }
+}
+.secSobre img {
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .secSobre img {
+    width: 30vw;
+  }
+}
+@media (max-width: 550px) {
+  .secSobre img {
+    width: 35vw;
+  }
+}
+@media (max-width: 400px) {
+  .secSobre img {
+    width: 45vw;
+  }
+}
+
+.secCons {
+  height: 45vh;
   background-color: #FF69B4;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 20vw;
+  justify-content: space-around;
 }
-main nav .secondNav h1 {
-  align-content: center;
-  color: #fff;
-  width: 100vh;
-  padding-right: 100px;
+@media (max-width: 550px) {
+  .secCons {
+    flex-direction: column;
+    height: 70vh;
+  }
 }
-main nav .secondNav img {
-  padding-left: 100px;
+.secCons p {
+  width: 38vw;
+  text-align: justify;
+  font-size: 1.5vw;
 }
-main nav .thirdNav {
+@media (max-width: 800px) {
+  .secCons p {
+    font-size: 2vw;
+    width: 45vw;
+  }
+}
+@media (max-width: 550px) {
+  .secCons p {
+    width: 75vw;
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 400px) {
+  .secCons p {
+    font-size: 3.5vw;
+  }
+}
+.secCons img {
+  width: 25vw;
+}
+@media (max-width: 800px) {
+  .secCons img {
+    width: 35vw;
+  }
+}
+@media (max-width: 550px) {
+  .secCons img {
+    width: 40vw;
+  }
+}
+@media (max-width: 400px) {
+  .secCons img {
+    width: 45vw;
+  }
+}
+
+.secDica {
   background-color: #FFD9EC;
   display: flex;
   align-items: center;
