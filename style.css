@@ -9,7 +9,7 @@
 
 header {
   height: 16vh;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -100,7 +100,7 @@ nav ul a {
 
 .secSobre {
   height: 60vh;
-  background-color: #FFD9EC;
+  background-color: #ffd9ec;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -154,7 +154,7 @@ nav ul a {
 
 .secCons {
   height: 45vh;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -207,7 +207,7 @@ nav ul a {
 }
 
 .secDica {
-  background-color: #FFD9EC;
+  background-color: #ffd9ec;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -215,7 +215,7 @@ nav ul a {
 }
 
 footer {
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: space-around;

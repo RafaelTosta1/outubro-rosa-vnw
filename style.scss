@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 header {
   height: 16vh;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,7 +48,7 @@ header {
       width: 8vw;
     }
     @media (max-width: 550px) {
-     width: 10vw;
+      width: 10vw;
     }
   }
 }
@@ -72,105 +72,104 @@ nav {
     @media (max-width: 550px) {
       justify-content: space-evenly;
     }
-    a{
-    color: #fff;
-  }
+    a {
+      color: #fff;
+    }
   }
 }
 
 // --------MAIN----------
 
- .secSobre {
+.secSobre {
   height: 60vh;
-    background-color: #FFD9EC;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  @media (max-width: 550px) {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+  p {
+    width: 38vw;
+    text-align: justify;
+    font-size: 1.5vw;
+    @media (max-width: 800px) {
+      font-size: 2vw;
+      width: 45vw;
+    }
     @media (max-width: 550px) {
-      flex-direction: column-reverse;
-      height: 70vh;
+      width: 75vw;
+      font-size: 2.5vw;
     }
-    p {
-      width: 38vw;
-      text-align: justify;
-      font-size: 1.5vw;
-      @media (max-width: 800px) {
-        font-size: 2vw;
-        width: 45vw;
-      }
-      @media (max-width: 550px) {
-        width: 75vw;
-        font-size: 2.5vw;
-      }
-      @media (max-width: 400px) {
-        font-size: 3.5vw;
-      }
-    }
-    img{
-      width: 25vw;
-      @media (max-width: 800px) {
-        width: 30vw;
-      }
-      @media (max-width: 550px) {
-        width: 35vw;
-      }
-      @media (max-width: 400px) {
-        width: 45vw;
-      }
+    @media (max-width: 400px) {
+      font-size: 3.5vw;
     }
   }
+  img {
+    width: 25vw;
+    @media (max-width: 800px) {
+      width: 30vw;
+    }
+    @media (max-width: 550px) {
+      width: 35vw;
+    }
+    @media (max-width: 400px) {
+      width: 45vw;
+    }
+  }
+}
 
- .secCons {
-    height: 45vh;
-    background-color: #FF69B4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.secCons {
+  height: 45vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    height: 70vh;
+  }
+  p {
+    width: 38vw;
+    text-align: justify;
+    font-size: 1.5vw;
+    @media (max-width: 800px) {
+      font-size: 2vw;
+      width: 45vw;
+    }
     @media (max-width: 550px) {
-      flex-direction: column;
-      height: 70vh;
+      width: 75vw;
+      font-size: 2.5vw;
     }
-    p {
-      width: 38vw;
-      text-align: justify;
-      font-size: 1.5vw;
-      @media (max-width: 800px) {
-        font-size: 2vw;
-        width: 45vw;
-      }
-      @media (max-width: 550px) {
-        width: 75vw;
-        font-size: 2.5vw;
-      }
-      @media (max-width: 400px) {
-        font-size: 3.5vw;
-      }
-    }
-    img{
-      width: 25vw;
-      @media (max-width: 800px) {
-        width: 35vw;
-      }
-      @media (max-width: 550px) {
-        width: 40vw;
-      }
-      @media (max-width: 400px) {
-        width: 45vw;
-      }
+    @media (max-width: 400px) {
+      font-size: 3.5vw;
     }
   }
+  img {
+    width: 25vw;
+    @media (max-width: 800px) {
+      width: 35vw;
+    }
+    @media (max-width: 550px) {
+      width: 40vw;
+    }
+    @media (max-width: 400px) {
+      width: 45vw;
+    }
+  }
+}
 
 .secDica {
-    background-color: #FFD9EC;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 26vw;
-  }
-
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 26vw;
+}
 
 footer {
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: space-around;
